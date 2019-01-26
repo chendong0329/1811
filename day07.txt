@@ -18,7 +18,7 @@ vim test.sh
 
 2.启动服务的脚本
 	刚刚安装的nginx,不受systemctl管理
-	启动: /usr/local/nginx/sbin/nginx[没提示,成功]
+	启动: /usr/local/nginx/sbin/nginx
 	关闭:/usr/local/nginx/sbin/nginx -s stop
 	报错: Address already in use [把httpd关掉]
 	注意:同一个端口,用时不能被两个程序使用
